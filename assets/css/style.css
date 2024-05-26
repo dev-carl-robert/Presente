@@ -2,12 +2,8 @@
     font-size: 62.5%;
 }
 body {
-    /* background-color: #cd966c; */
+    background-color: #F5F2ED;
     overflow: hidden;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 
@@ -18,61 +14,76 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(20px);
 }
 header .title {
     font-size: 7rem;
     font-weight: 900;
-    font-family: "Tangerine";
+    font-family: "Tangerine", "Indie Flower";
     color: #66280a;
     opacity: .6;
     letter-spacing: 2px;
 }
 header p {
     position: absolute;
-    left: 2rem;
+    right: 2rem;
     bottom: 0;
-    color: #D7D7D7;
+    color: #66280a;
     opacity: .5;
     font-family: "Tangerine";
     font-size: 3rem;
     font-weight: 700;
 }
-section {
-    width: 100vw;
-    height: 52rem;
+#apresentation {
+    margin-top: 3rem;
     display: flex;
+    gap: 3rem;
     justify-content: center;
     align-items: center;
 }
-.Livros {
-    display: flex;
-    gap: 3rem;
-}
-.livro {
+.citacao {
+    width: 50vw;
+    margin-left: 7rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.livro img {
-    box-shadow: 10px 5px 20px #A47D49;
-    height: 35rem;
-    border-radius: 10px;
-    filter: blur(.6px);
+.citacao h3 {
+    font-size: 4rem;
+    font-family: 'Tangerine';
+    color: #403E3C;
 }
-.livro a {
-    text-align: center;
-    margin-top: 2rem;
-    font-family: "Indie Flower";
+.citacao h1 {
+    margin-top: 1rem;
+    font-family: 'Indie Flower';
     font-size: 2.5rem;
-    color: #2E3D40;
-    background-color: #D7D7D7;
-    padding: 4px 8px;
+    color: #403E3C;
+    word-break: keep-all;
+}
+.aspas {
+    font-size: 4rem;
+    color: #66280a;
+}
+.citacao a {
+    text-align: center;
+    width: 30rem;
+    font-size: "Indie Flower";
+    padding: 10px 16px;
+    background-color: #66280a;
+    color: #F5F2ED;
+    font-size: 2rem;
     border-radius: 2rem;
+    margin-top: 4rem;
 }
-.livro img:hover {
-    filter: opacity(.8);
+.image {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
 }
-.livro a:hover {
-    filter: invert(1);
+.book {
+    max-height: 45rem;
+    max-width: 60rem;
+    border-radius: 1rem;
 }
