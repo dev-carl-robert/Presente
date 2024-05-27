@@ -157,3 +157,14 @@ header p {
 .Three_section:hover::after{
     content: "Aquele do terminal";
 }
+
+#Hopeless .book {
+    margin-bottom: 1rem;
+}
+
+.Four_section::after {
+    content: "Desisto";
+}
+.Four_section:hover::after {
+    content: "Brincadeirinha, achou mesmo?";
+}
