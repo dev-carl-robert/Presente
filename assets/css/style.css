@@ -165,6 +165,20 @@ header p {
 .Four_section::after {
     content: "Desisto";
 }
-.Four_section:hover::after {
-    content: "Brincadeirinha, achou mesmo?";
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.links a:hover {
+    opacity: .9;
+}
+.video_content {
+    max-height: 60rem;
+    max-width: 60rem;
+}
+#video {
+    height: 100%;
+    width: 100%;
 }
