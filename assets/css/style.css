@@ -118,7 +118,7 @@ header p {
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    margin-top: 2rem;
+    margin-top: 2.3rem;
     margin-bottom: 5rem;
     width: 100vw;
     font-size: 4rem;
@@ -181,4 +181,13 @@ header p {
 #video {
     height: 100%;
     width: 100%;
+}
+#Hopeless h2 {
+    margin-top: 2rem;
+}
+#CasoP h2 {
+    margin-top: 2rem;
+}
+#convite h2 {
+    margin-top: 2rem;
 }
